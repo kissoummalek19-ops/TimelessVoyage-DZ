@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TimelessVoyage DZ — Algeria's Heritage in AR/VR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Scan a QR code at heritage sites, unlock Algeria's civilizations in AR/VR, and shop authentic crafts. A timeless voyage powered by AI." />
+</head>
+<body>
+  <!-- Nav -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <img src="assets/logo.svg" alt="TimelessVoyage DZ"/>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#market">Marketplace</a>
+        <a href="#scan">QR Demo</a>
+        <a href="#contact" class="btn">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <img class="hero-bg" src="assets/hero.jpg" alt="Desert gateway and time rings"/>
+    <div class="overlay"></div>
+    <div class="container hero-content">
+      <h1><span>TimelessVoyage DZ</span><br/>Algeria. Past meets Future.</h1>
+      <p>Step through the gateway of time: explore Hippo Regius, Numidia & more in immersive AR/VR, then shop authentic crafts from local artisans.</p>
+      <div class="cta">
+        <a class="btn primary" href="#experience">Start Prototype</a>
+        <a class="btn ghost" href="#scan">Scan QR</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container grid-2">
+      <div>
+        <h2>What is TimelessVoyage DZ?</h2>
+        <p>It’s a culture-tech platform that links Algeria’s heritage sites and artifacts to a digital twin. Visitors scan a QR code to open a curated experience matched to each site: images with layered facts, HD videos, or AR/VR reconstructions.</p>
+        <ul class="bullets">
+          <li>Time-rings UI showing civilizations: Stone Age, Phoenicians, Numidians, Romans, Vandals, Byzantines, Islamic & Andalusian, Ottoman, Modern era.</li>
+          <li>Guided narration in multiple languages with AI voice.</li>
+          <li>Built-in marketplace for <em>authentic crafts</em>.</li>
+        </ul>
+      </div>
+      <div>
+        <img class="card-img" src="assets/arch-feature.jpg" alt="Gateway and rings" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section alt">
+    <div class="container">
+      <h2>How the Experience Works</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="num">1</div>
+          <h3>Scan</h3>
+          <p>Scan the QR code at a site or artifact to open the right story level.</p>
+        </div>
+        <div class="step">
+          <div class="num">2</div>
+          <h3>Choose Era</h3>
+          <p>Select the era you want to see (e.g., Hippo Regius — Roman period).</p>
+        </div>
+        <div class="step">
+          <div class="num">3</div>
+          <h3>Immerse</h3>
+          <p>View photos & facts, watch HD video, or enter AR/VR to walk the city.</p>
+        </div>
+      </div>
+      <img class="wide-img" src="assets/arvr.jpg" alt="AR/VR Illustration" />
+    </div>
+  </section>
+
+  <!-- Marketplace -->
+  <section id="market" class="section">
+    <div class="container grid-2">
+      <div>
+        <img class="card-img" src="assets/market.jpg" alt="Crafts marketplace"/>
+      </div>
+      <div>
+        <h2>Marketplace of Authentic Crafts</h2>
+        <p>While touring virtually, discover regional crafts — carpets, pottery, jewelry, zellige-inspired decor — and purchase directly from artisans.</p>
+        <a class="btn primary" href="#">Enter Marketplace</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- QR Demo -->
+  <section id="scan" class="section alt">
+    <div class="container grid-2">
+      <div>
+        <h2>QR Demo</h2>
+        <p>Use your phone’s camera to scan this demo QR. In the real product, each code maps to a site & era.</p>
+        <img class="qr" src="assets/qr-demo.png" alt="QR placeholder">
+      </div>
+      <div>
+        <h3>Supported Modes</h3>
+        <ul class="bullets">
+          <li>Image + layered facts</li>
+          <li>HD Video timeline</li>
+          <li>AR / VR reconstruction</li>
+        </ul>
+        <h3>Guide Translator</h3>
+        <p>An AI storyteller accompanies the tour in the language you choose.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Want to partner or test the prototype? Leave us a note.</p>
+      <form class="contact" action="https://formspree.io/f/xbjvqqoo" method="POST">
+        <input required name="name" placeholder="Your name" />
+        <input required name="email" type="email" placeholder="Email" />
+        <textarea name="message" rows="4" placeholder="Message"></textarea>
+        <button class="btn primary" type="submit">Send</button>
+      </form>
+      <p class="tiny">You can replace the form endpoint later or remove it.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container foot">
+      <span>© <span id="y"></span> TimelessVoyage DZ</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
